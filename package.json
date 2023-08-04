@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.mdalamin1964.io/BusinessCard/",
+  "homepage": "https://mdalamin1964.github.io/BusinessCard/",
   "name": "bcard",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "predeploy":"npm run deploy",
+    "predeploy":"npm run build",
     "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
